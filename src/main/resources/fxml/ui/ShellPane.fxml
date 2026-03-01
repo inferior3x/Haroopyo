@@ -9,7 +9,7 @@
   <center>
     <SplitPane fx:id="mainSplit" dividerPositions="0.25">
       <!-- Left -->
-      <fx:include source="group-panel/GroupPanelPane.fxml"/>
+      <fx:include source="group-panel/GroupPane.fxml"/>
 
       <!-- Right -->
       <fx:include source="calendar/CalendarPane.fxml"/>
