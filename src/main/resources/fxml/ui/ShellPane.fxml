@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.SplitPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+  fx:controller="io.coco.haroopyo.ui.ShellController">
+
+  <center>
+    <SplitPane fx:id="mainSplit" dividerPositions="0.25">
+      <!-- Left -->
+      <fx:include source="group-panel/GroupPanelPane.fxml"/>
+
+      <!-- Right -->
+      <fx:include source="calendar/CalendarPane.fxml"/>
+    </SplitPane>
+  </center>
+
+</BorderPane>

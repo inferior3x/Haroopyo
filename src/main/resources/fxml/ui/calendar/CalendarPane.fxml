@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml">
+
+  <!-- Header -->
+  <HBox spacing="10">
+    <Label text="2026년 3월"
+      style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+    <Pane HBox.hgrow="ALWAYS"/>
+
+    <Button text="▲"/>
+    <Button text="▼"/>
+  </HBox>
+
+  <!-- Placeholder Calendar Grid -->
+  <GridPane gridLinesVisible="true"
+    VBox.vgrow="ALWAYS">
+    <!-- 일단 7x6 placeholder -->
+  </GridPane>
+
+</VBox>
